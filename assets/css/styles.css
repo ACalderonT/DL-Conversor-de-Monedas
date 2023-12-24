@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  width: 35vw;
+  border-radius: 5px;
+  padding: 25px;
+}
+.main-container h3 {
+  margin-bottom: 5px;
+}
+.main-container h5 {
+  margin-bottom: 3px;
+}
+.main-container input {
+  height: 45px;
+  width: 300px;
+  font-size: large;
+  text-align: center;
+}
+.main-container input[type=number] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  margin: 0;
+}
+.main-container input::-webkit-inner-spin-button, .main-container input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+.main-container input::-moz-placeholder {
+  font-size: small;
+}
+.main-container input::placeholder {
+  font-size: small;
+}
+.main-container select {
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.main-container button {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px 15px;
+}
+.main-container span {
+  font-size: xx-large;
+  margin: 20px 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+section span {
+  font-size: x-large;
+  padding: 25px 10px;
+}
+
+.error-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  height: 100vh;
+  width: 100vw;
+}/*# sourceMappingURL=styles.css.map */
